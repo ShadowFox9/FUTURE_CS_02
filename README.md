@@ -15,6 +15,6 @@ This project documents a hands-on vulnerability assessment of a deliberately vul
 - Burp Suite (Community)
 
 ### Status
-In Progress
+
 Testing conducted using the official OWASP Juice Shop demo environment.
 
