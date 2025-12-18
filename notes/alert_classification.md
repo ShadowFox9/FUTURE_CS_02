@@ -31,3 +31,24 @@ Recommended Action:
 Review access control requirements, limit exposed data, and implement
 rate limiting or authentication if necessary.
 
+
+Alert ID: SOC-003
+Alert Type: User Identity Endpoint Accessed Without Active Session
+Endpoint: /rest/user/whoami
+HTTP Status Code: 304 Not Modified
+Severity Level: Informational
+Description:
+The user identity endpoint was accessed without an active authenticated
+session, resulting in no content being returned.
+
+Potential Impact:
+Minimal risk. However, repeated probing of identity endpoints may
+indicate reconnaissance behavior.
+
+Recommended Action:
+Continue monitoring access attempts and ensure session management
+controls are functioning correctly.
+
+
+
+
