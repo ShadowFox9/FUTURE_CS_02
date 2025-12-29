@@ -38,3 +38,24 @@ See screenshot: `SOC-002_Suspicious_IP_Activity.png`
 - Apply rate limiting or blocking if malicious  
 - Continue monitoring for escalation
 
+- ## SOC-003: Malware / Security Alert
+
+**Alert Type:** Malware Detection  
+**Severity:** High  
+**Data Source:** Splunk (soc_task2_logs)
+
+**Description:**  
+A security alert indicating possible malware activity was detected in system logs.
+
+**Potential Impact:**  
+System compromise, data loss, lateral movement.
+
+**Evidence:**  
+See screenshot: `SOC-003_Malware_or_Security_Alert.png`
+
+**Recommended Response:**  
+- Isolate affected host  
+- Run malware scans  
+- Apply patches and monitor for persistence
+
+
